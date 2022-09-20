@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Kit Fontawesome -->
+        <script src="https://kit.fontawesome.com/db3a43e0b7.js" crossorigin="anonymous"></script>
+        <!-- CSS only -->
+        <link href="ASSETS/CSS/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <title>Proyecto Final</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="ASSETS/IMG/APLogo.png" alt="" width="19%" class="d-inline-block">
+                        <p class="nombre-programa d-inline-block">#YoProgramo</p>
+                    </a>
+                    <!--Redes sociales-->
+                    <ul class="list-group list-group-horizontal">
+                        <a href="https://www.linkedin.com/in/jonatan-vargas-545b90202/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-xl"></i></li></a>
+                        <a href="https://www.instagram.com/jonny_a_vargas/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-instagram fa-xl"></i></li></a>
+                        <a href="https://www.behance.net/jonatanvargass" target="_blank"><li class="list-group-item"><i class="fa-brands fa-behance fa-xl"></i></li></a>
+                        <!-- Button trigger modal -->
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-user-lock fa-2xl" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!--Formulario Login-->
+                        <div class="modal-body">
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="staticEmail" placeholder="email@dominio.com">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                                <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Ingrese su contraseña">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!--Perfil-->
+            <section id="perfil" class="about">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <img src="ASSETS/IMG/foto-de-perfil.jpg" class="rounded-circle border border-1 border-dark w-75" alt="..." title="Foto de perfil">
+                        </div>
+                        <div class="col-md-8 col-lg-9"></div>
+                        <div class="datos-personales col-md-4 col-lg-3 mt-3 ">
+                            <h3>Jonatan Alexander Vargas</h3>
+                            <h6>Full Stack Developer Jr. | Periodista | Diseñador UX/UI</h6>
+                            <p>Buenos Aires, Argentina</p>
+                        </div>
+                        <div class="col-1"></div>
+                        <!--Acerca de-->
+                        <div class="acerca-de-mi col-md-7 col-lg-8 mt-lg-4">
+                            <h3 class="mt-2">Acerca De</h3>
+                            <p>
+                                Soy un apasionado por la comunicación y la tecnología.
+                                Me encanta aprender y adquirir conocimiento todo el tiempo, y al mismo tiempo comunicarlo y contagiar a las personas de esto que tanto me gusta.
+                                Me recibí de Periodista y actualmente me encuentro capacitándome en el área de la programación y diseño UX/UI.
+                            <p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Experiencia-->
+            <section id="experiencia">
+                <div class="container mt-4 acerca-de-mi">
+                    <div class="row">
+                        <div class="col-2 text-center mt-3">
+                            <h3>Experiencia</h3>
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/logo-merlo.png" class="rounded-circle w-50" alt="..." title="Logo Municipalidad de Merlo">
+                        </div>
+                        <div class="col-10">
+                            <h5>Empleado Administrativo</h5>
+                            <h6>Municipalidad de Merlo - Jornada Parcial</h6>
+                            <p>
+                                ago. 2015 - mar 2023 · 7 años 7 meses</br> 
+                                Buenos Aires, Argentina
+                            </p> 
+                        </div>
+                        <div class="col-12 mt-4"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/logo-isec.jpeg" class="rounded-circle w-50" alt="..." title="Logo ISEC">
+                        </div>
+                        <div class="col-10">
+                            <h5>Columnista</h5>
+                            <h6>ISEC - Nueva Generación de Comunicadores</h6>
+                            <p>
+                                mar. 2019 - dic. 2020 · 1 año 10 meses</br> 
+                                Buenos Aires, Argentina
+                            </p> 
+                        </div>
+                        <div class="mt-2"></div>
+                    </div>
+                </div>
+            </section>
+            <!--Educación-->
+            <section id="educacion">
+                <div class="container mt-4 acerca-de-mi">
+                    <div class="row">
+                        <div class="col-2 text-center mt-3">
+                            <h3>Educación</h3>
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/logo-isec.jpeg" class="rounded-circle w-50" alt="..." title="Logo ISEC">
+                        </div>
+                        <div class="col-10">
+                            <h5>ISEC - Nueva Generación de Comunicadores</h5>
+                            <h6>Tecnicatura Superior en Periodismo</h6>
+                            <p> mar. 2018 - dic. 2020</p> 
+                        </div>
+                        <div class="col-12 mt-4"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/argProg-Logo2.jpg" class="rounded-circle w-50" alt="..." title="Logo AP">
+                        </div>
+                        <div class="col-10">
+                            <h5>Argentina Programa</h5>
+                            <h6>Full Stack Developer Jr.</h6>
+                            <p>feb. 2022 - ene. 2023</p> 
+                        </div>
+                        <div class="col-12 mt-4"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/logo-Coursera.png" class="rounded-circle w-50" alt="..." title="Logo Coursera">
+                        </div>
+                        <div class="col-10">
+                            <h5>Coursera</h5>
+                            <h6>Diseño de Experiencia del Usuario (UX) de Google</h6>
+                            <p>jul. 2022 - nov. 2022</p> 
+                        </div>
+                        <div class="col-12 mt-4"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/coderhouse_logo.webp" class="rounded-circle w-50" alt="..." title="Logo Coder">
+                        </div>
+                        <div class="col-10">
+                            <h5>Coderhouse</h5>
+                            <h6>Carrera de Desarrollo UX/UI</h6>
+                            <p>jun. 2022 - may. 2023</p> 
+                        </div>
+                        <div class="col-12 mt-4"></div>
+                        <div class="col-2 text-center mt-2">
+                            <img src="ASSETS/IMG/Logos-Edu-Exp/Logo-Udemy.png" class="rounded-circle w-50" alt="..." title="Logo Udemy">
+                        </div>
+                        <div class="col-10">
+                            <h5>Udemy</h5>
+                            <h6>Front End Web Developer Jr.</h6>
+                            <p>feb. 2021 - may. 2021</p> 
+                        </div>
+                        <div class="mt-2"></div>
+                    </div>
+                </div>
+            </section>
+            <!--Skills-->
+            <section id="skills" class="container mt-4 acerca-de-mi">
+                <div class="row">
+                    <!--Hard Skills-->
+                    <div class="col-2 text-center mt-3">
+                        <h3>Hard Skills</h3>
+                    </div>
+                    <div class="col-10"></div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/html-logo.png" class="rounded-3 w-50" alt="..." title="HTML">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-orange progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/css-logo-adaweb.png" class="rounded-3 w-75" alt="..." title="CSS">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/JavaScript-logo.png" class="rounded-3 w-75" alt="..." title="JavaScript">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/java-logo.png" class="rounded-3 w-50" alt="..." title="Java">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/Angular_full_color_logo.svg.png" class="rounded-3 w-50" alt="..." title="Angular">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Danger Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 text-center mt-3">
+                        <img src="ASSETS/IMG/Logos-Skills/bootstrap-logo.png" class="rounded-3 w-50" alt="..." title="Angular">
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4">
+                        <div class="progress mt-5" style="height: 20px;"> 
+                            <div class="progress-bar progress-bar-striped progress-bar-violet progress-bar-animated" role="progressbar" aria-label="Danger Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                        </div>
+                    </div>
+                    <!--Soft Skills-->
+                    <div class="col-2 text-center mt-4">
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gestión del tiempo</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar w-50" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trabajo en equipo</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comunicación</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar w-100" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Resolución de conflictos</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar w-50" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </br>
+                        </div>
+                        <div class="mt-1"></div>
+                    </div>
+            </section>
+            <!--Proyectos-->
+            <section id="proyectos" class="container mt-4 acerca-de-mi">
+                <div class="row">
+                    <div class="col-2 text-center mt-3">
+                        <h3>Proyectos</h3>
+                    </div>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="ASSETS/IMG/Proyectos/MP.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button" target="_blank">Ver Proyecto</a>
+                                    <h4>Sitio wep realizado para un taller dedicado al ploteo y estetica de autos, motos, etc.</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="ASSETS/IMG/Proyectos/Cine.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button" target="_blank">Ver Proyecto</a>
+                                    <h4>Sitio wep realizado para un taller dedicado al ploteo y estetica de autos, motos, etc.</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ASSETS/IMG/Proyectos/ArgProg.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a class="btn btn-primary" href="#" role="button" target="_blank">Ver Proyecto</a>
+                                    <h4>Sitio wep realizado para un taller dedicado al ploteo y estetica de autos, motos, etc.</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="mt-2"></div>
+                </div>
+            </section>
+        </main>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
